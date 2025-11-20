@@ -1,0 +1,8 @@
+# IDE files
+.classpath
+.project
+.factorypath
+.settings/
+
+# Build output
+target/
