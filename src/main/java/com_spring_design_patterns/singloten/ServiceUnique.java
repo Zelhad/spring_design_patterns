@@ -1,9 +1,8 @@
-package singloten;
+package com_spring_design_patterns.singloten;
 
 import org.springframework.stereotype.Service;
 
 @Service
-
 public class ServiceUnique {
 	private static java.util.logging.Logger log =java.util.logging.Logger.getLogger(ServiceUnique.class.getName());
 
@@ -21,7 +20,7 @@ public class ServiceUnique {
 	public void setStatus(int status) {
 		this.status = status;
 	}
-	void  dsispayStatus() {
+	public void  displayStatus() {
 		log.info("The status is " +status);
 		
 	}

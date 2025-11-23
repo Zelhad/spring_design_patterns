@@ -8,7 +8,12 @@
          http://www.springframework.org/schema/context
          https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- Tell Spring: scan this package for @Service, @Component, etc. -->
-    <context:component-scan base-package="com.example.spring"/>
-
+    <!-- Tell Spring: scan this package for @Service, @Component, etc.
+    /spring_design_patterns/src/main/java/singloten/ServiceUnique.java
+    
+     -->
+     <context:component-scan base-package="com_spring_design_patterns.singloten"/>
+     
+   
+    
 </beans>
