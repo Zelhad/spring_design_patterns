@@ -13,7 +13,7 @@
     
      -->
      <context:component-scan base-package="com_spring_design_patterns.singloten"/>
-     
+	<context:component-scan base-package ="com_spring_design_patterns.prototype"/>     
    
     
 </beans>
